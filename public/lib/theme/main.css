@@ -6986,7 +6986,8 @@ section.module.parallax-3 {
     font-size: 20px;
   }
   section.module.parallax h1 {
-    font-size: 6px;
+    font-size: 84px;
+    font-weight: 200 bold;
   }
 }
 @media all and (min-width: 960px) {
