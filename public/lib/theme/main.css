@@ -115,13 +115,16 @@ samp {
   font-size: 1em;
 }
 button,
-input,
+/*input*/,
 optgroup,
 select,
 textarea {
   color: inherit;
   font: inherit;
   margin: 0;
+}
+input{
+  font color: black;
 }
 button {
   overflow: visible;
@@ -6140,7 +6143,7 @@ button.close {
   -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-/*.popover.top {
+.popover.top {
   margin-top: -10px;
 }
 .popover.right {
@@ -6615,7 +6618,7 @@ button.close {
   td.visible-sm {
     display: table-cell !important;
   }
-}*/
+}
 /*@media (min-width: 768px) and (max-width: 991px) {
   .visible-sm-block {
     display: block !important;
@@ -6782,7 +6785,7 @@ button.close {
   /*background-image: -webkit-linear-gradient(#e72510, #568BA5 6%, #cb210e);
   background-image: -o-linear-gradient(#e72510, #568BA5 6%, #cb210e);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e72510), color-stop(6%, #568BA5), to(#cb210e));
-  background-image: linear-gradient(#e72510, #568BA5 6%, #cb210e);*/
+  background-image: linear-gradient(#e72510, #568BA5 6%, #cb210e);
   background-repeat: no-repeat;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe72510', endColorstr='#ffcb210e', GradientType=0);
   -webkit-filter: none;
@@ -6961,8 +6964,8 @@ section.module.parallax h1 {
 section.module.parallax-1 {
   background-image: url("../theme/img_violinmain.jpg");
   min-width: 100% !important;
-  filter: brightness(40%);
-  filter: opacity(75%);
+  filter: brightness(50%);
+  filter: opacity(85%);
 }
 section.module.parallax-2 {
   background-image: url("../theme/img_violinsecond.jpg");
