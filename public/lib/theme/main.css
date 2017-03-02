@@ -6998,3 +6998,6 @@ section.module.parallax-3 {
     font-size: 160px;
   }
 }
+p {
+  font-size: 20px !important;
+}
